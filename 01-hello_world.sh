@@ -18,4 +18,5 @@ echo -e "1\n2\n3" #Permet d'interpréter les \n
 # $ = lorsque l'in veut la valeur de la variable (lecture)
 # sinon, on affecte dans la variable (
 read -p^"Quel âge avez-vous" age 
+
 echo $age "ans! Vous paraissez jeune!"
